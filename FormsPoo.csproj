@@ -54,7 +54,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Properties\Resources.resx">
+	  <Compile Include="Clases\Producto.cs" />
+	  <Compile Include="Clases\Comida.cs" />
+	  <Compile Include="Clases\Tecnologia.cs" />
+	  <Compile Include="Clases\Tienda.cs" />
+
+	  <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>

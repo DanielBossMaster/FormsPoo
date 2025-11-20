@@ -12,7 +12,7 @@ namespace FormsPoo
 
             cbTipo.Items.Add("Tecnologia");
             cbTipo.Items.Add("Comida");
-            cbTipo.Items.Add("Tienda (General)");
+            cbTipo.Items.Add("Tienda");
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
